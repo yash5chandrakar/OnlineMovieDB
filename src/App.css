@@ -479,3 +479,10 @@ td {
   display: flex;
   flex-wrap: wrap;
 }
+
+.genreItem {
+  border: 2px solid yellow;
+  padding: 7px;
+  margin: 5px 10px;
+  border-radius: 25px;
+}

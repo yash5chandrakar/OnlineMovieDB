@@ -18,7 +18,7 @@ const Overlay = (props) => {
                 <h1>{item.title} </h1>
                 <p className='ratings'>IMDB Rating : {item.imdbRating} 📽 Year : {item.year}</p>
                 <p className='genres'>{item.genres.map((element) => {
-                    return <span key={id++}>{element} &nbsp;</span>
+                    return <span className='genreItem' key={id++}>{element}</span>
                 })}
                 </p>
                 <p>{item.storyline}</p>
