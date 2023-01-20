@@ -16,13 +16,8 @@ const HomePage = () => {
 
     const initalState = allMovies
 
-    useEffect(() => {
-
-    }, [genre, pageNo, query])
-
 
     useEffect(() => {
-
         let myData = initalState
 
         if (genre !== "") {
@@ -37,11 +32,14 @@ const HomePage = () => {
                 }
             })
         }
+
         setTotalMovies(myData.length)
+
         myData = myData.slice((pageNo - 1) * 20, (pageNo) * 20)
 
+
         if (sort === "LATEST") {
-            myData = myData.sort((a, b) => b.year - a.year)
+            myData = myData.sort((a, b) => parseInt(b.year) - parseInt(a.year))
         }
         else if (sort === "OLDEST") {
             myData = myData.sort((a, b) => a.year - b.year)
@@ -53,13 +51,12 @@ const HomePage = () => {
             myData = myData.sort((a, b) => a.imdbRating - b.imdbRating)
         }
         if (query !== "") {
-            console.log("Hello")
+            // console.log("Hello")
             // eslint-disable-next-line array-callback-return
             myData = myData.filter((item) => {
                 if (item.title.includes(query)) {
                     return item;
                 }
-
             })
 
         }
@@ -125,7 +122,7 @@ const HomePage = () => {
                 <div className='rightHome'>
                     <div className='upperHome'>
                         <h3>{totalMovies} Movies</h3>
-                        <div><input placeholder='Search For a movie..' value={query} onChange={(e) => setQuery(e.target.value)}></input> &nbsp; </div>
+                        <div><input className='queryBox' placeholder='Search For a movie..' value={query} onChange={(e) => setQuery(e.target.value)}></input> &nbsp; </div>
                         <div><button onClick={() => decrementPage()}>👈🏻</button> {pageNo} <button onClick={() => incrementPage()}>👉🏻</button></div>
                         <div>SORT BY : <select onChange={(e) => setSort(e.target.value)} name='sort' id='sort'>
                             <option value="LATEST">LATEST</option>
