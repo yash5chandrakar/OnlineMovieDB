@@ -9790,64 +9790,8 @@ const allMovies = [{
     ],
     "imdbRating": 8,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAyNDM4MTc2N15BMl5BanBnXkFtZTYwNDk0Mjc3._V1_SY237_CR0,0,160,237_AL_.jpg"
-}, {
-    "_id": {
-        "$oid": "638f186b0556e13d05b1e608"
-    },
-    "title": "PK",
-    "year": "2014",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "ratings": [
-        6,
-        5,
-        6,
-        1,
-        10,
-        3,
-        2,
-        2,
-        9,
-        7,
-        3,
-        4,
-        1,
-        7,
-        9,
-        7,
-        10,
-        4,
-        9,
-        2,
-        7,
-        3,
-        3,
-        7,
-        4,
-        8,
-        4,
-        2,
-        10,
-        7
-    ],
-    "poster": "MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_SY500_CR0,0,344,500_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT153M",
-    "releaseDate": "2014-12-19",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "P. K. is a comedy of ideas about a stranger in the city, who asks questions that no one has asked before. They are innocent, child-like questions, but they bring about catastrophic answers. People who are set in their ways for generations, are forced to reappraise their world when they see it from PK's innocent eyes. In the process PK makes loyal friends and powerful foes. Mends broken lives and angers the establishment. P. K.'s childlike curiosity transforms into a spiritual odyssey for him and millions of others. The film is an ambitious and uniquely original exploration of complex philosophies. It is also a simple and humane tale of love, laughter and letting-go. Finally, it is a moving saga about a friendship between strangers from worlds apart.                Written by\nAbhijat Joshi",
-    "actors": [
-        "Aamir Khan",
-        "Anushka Sharma",
-        "Sanjay Dutt"
-    ],
-    "imdbRating": 8.2,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_SY500_CR0,0,344,500_AL_.jpg"
-}, {
+},
+{
     "_id": {
         "$oid": "638f186b0556e13d05b1e609"
     },

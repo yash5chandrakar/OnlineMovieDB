@@ -53,7 +53,9 @@ const HomePage = () => {
             // console.log("Hello")
             // eslint-disable-next-line array-callback-return
             myData = myData.filter((item) => {
-                if (item.title.includes(query)) {
+                let myTitle = item.title.toLowerCase()
+                let myQuery = query.toLowerCase()
+                if (myTitle.includes(myQuery)) {
                     return item;
                 }
             })
@@ -70,16 +72,11 @@ const HomePage = () => {
 
     }, [genre, initalState, pageNo, query, sort])
 
-
-
-
     function incrementPage() {
         if (pageNo !== totalMovies / 20) {
             setPageNo(pageNo + 1)
         }
     }
-
-
 
     function decrementPage() {
         if (pageNo !== 1) {
