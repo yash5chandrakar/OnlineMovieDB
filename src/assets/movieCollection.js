@@ -3224,7 +3224,8 @@ const allMovies = [{
     ],
     "imdbRating": 8.3,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzc2ZThkOGItZGY5YS00MDYwLTkyOTAtNDRmZWIwMGRhYTc0L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY500_CR0,0,328,500_AL_.jpg"
-}, {
+},
+{
     "_id": {
         "$oid": "638f186b0556e13d05b1e569"
     },
@@ -4689,62 +4690,8 @@ const allMovies = [{
     ],
     "imdbRating": 8.2,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SY500_CR0,0,337,500_AL_.jpg"
-}, {
-    "_id": {
-        "$oid": "638f186b0556e13d05b1e590"
-    },
-    "title": "Att leva",
-    "year": "1952",
-    "genres": [
-        "Drama"
-    ],
-    "ratings": [
-        7,
-        1,
-        3,
-        7,
-        6,
-        7,
-        4,
-        1,
-        8,
-        6,
-        9,
-        8,
-        10,
-        7,
-        7,
-        8,
-        9,
-        8,
-        2,
-        2,
-        4,
-        1,
-        3,
-        2,
-        2,
-        5,
-        7,
-        6,
-        7,
-        5
-    ],
-    "poster": "MV5BMWU4NmM5OTgtODk1MC00NThiLThkNjMtOWM5MGIzYjEyNmY5XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SY500_CR0,0,355,500_AL_.jpg",
-    "contentRating": "11",
-    "duration": "PT143M",
-    "releaseDate": "1966-09-12",
-    "averageRating": 0,
-    "originalTitle": "Ikiru",
-    "storyline": "Kanji Watanabe is a civil servant. He has worked in the same department for 30 years. His life is pretty boring and monotonous, though he once used to have passion and drive. Then one day he discovers that he has stomach cancer and has less than a year to live. After the initial depression he sets about living for the first time in over 20 years. Then he realises that his limited time left is not just for living life to the full but to leave something meaningful behind...                Written by\ngrantss",
-    "actors": [
-        "Takashi Shimura",
-        "Nobuo Kaneko",
-        "Shin'ichi Himori"
-    ],
-    "imdbRating": 8.3,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMWU4NmM5OTgtODk1MC00NThiLThkNjMtOWM5MGIzYjEyNmY5XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SY500_CR0,0,355,500_AL_.jpg"
-}, {
+},
+{
     "_id": {
         "$oid": "638f186b0556e13d05b1e591"
     },
@@ -5875,64 +5822,8 @@ const allMovies = [{
     ],
     "imdbRating": 8.2,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SY500_CR0,0,337,500_AL_.jpg"
-}, {
-    "_id": {
-        "$oid": "638f186b0556e13d05b1e5a9"
-    },
-    "title": "A Wednesday",
-    "year": "2008",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-    ],
-    "ratings": [
-        5,
-        4,
-        6,
-        5,
-        6,
-        8,
-        4,
-        4,
-        3,
-        4,
-        5,
-        6,
-        6,
-        6,
-        1,
-        1,
-        3,
-        7,
-        2,
-        4,
-        5,
-        6,
-        10,
-        8,
-        3,
-        5,
-        9,
-        3,
-        4,
-        2
-    ],
-    "poster": "MV5BMTAzODEzMjE1MTJeQTJeQWpwZ15BbWU3MDE3NjQ5Mzk@._V1_SY492_SX324_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT104M",
-    "releaseDate": "2008-09-05",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "A man calls up the Mumbai police, and tells them he has placed five different bombs in the city -- all set to go off in some time. He wants four terrorists in exchange. Does he get them? Who is behind it all? What's his motive? Is there more than meets the eye?                Written by\nSaurabh Roy",
-    "actors": [
-        "Anupam Kher",
-        "Naseeruddin Shah",
-        "Jimmy Shergill"
-    ],
-    "imdbRating": 8.4,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAzODEzMjE1MTJeQTJeQWpwZ15BbWU3MDE3NjQ5Mzk@._V1_SY492_SX324_AL_.jpg"
-}, {
+},
+{
     "_id": {
         "$oid": "638f186b0556e13d05b1e5ac"
     },
@@ -7065,64 +6956,8 @@ const allMovies = [{
     ],
     "imdbRating": 8.1,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzAwNjU1OTktYjY3Mi00NDY5LWFlZWUtZjhjNGE0OTkwZDkwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY500_CR0,0,318,500_AL_.jpg"
-}, {
-    "_id": {
-        "$oid": "638f186b0556e13d05b1e5c7"
-    },
-    "title": "Andaz Apna Apna",
-    "year": "1994",
-    "genres": [
-        "Comedy",
-        "Family",
-        "Romance"
-    ],
-    "ratings": [
-        4,
-        6,
-        10,
-        6,
-        9,
-        2,
-        4,
-        9,
-        9,
-        8,
-        4,
-        2,
-        4,
-        10,
-        4,
-        6,
-        5,
-        10,
-        10,
-        9,
-        2,
-        9,
-        9,
-        5,
-        4,
-        7,
-        9,
-        4,
-        9,
-        5
-    ],
-    "poster": "MV5BNWE2MjhjMmMtNzQyMS00MmI0LTlkOTUtZDVlZjFlNmZkNDgyL2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY462_CR0,0,331,462_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT160M",
-    "releaseDate": "1994-11-04",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Amar and Prem are two rivals who belonging to middle-class families with no scope of future advancement. Both individually, without the knowledge of the other decide to take matters into their hands and find ways to get rich quickly. Chaos and acrimony result when both find each other at loggerheads when both arrive to win the hand of the daughter of multi-millionaire Ram Gopal Bajaj amidst considerable upheavals when Shyam, the twin brother of Ram, decides to do away with Ram and assume his identity and thus take over the estate of the Bajaj family.                Written by\nSonia",
-    "actors": [
-        "Aamir Khan",
-        "Salman Khan",
-        "Raveena Tandon"
-    ],
-    "imdbRating": 8.4,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWE2MjhjMmMtNzQyMS00MmI0LTlkOTUtZDVlZjFlNmZkNDgyL2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY462_CR0,0,331,462_AL_.jpg"
-}, {
+},
+{
     "_id": {
         "$oid": "638f186b0556e13d05b1e5c8"
     },
@@ -10070,61 +9905,7 @@ const allMovies = [{
     "imdbRating": 8.1,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjI3NjY1Mjg3MV5BMl5BanBnXkFtZTgwMzk5MDQ3MjE@._V1_SY500_CR0,0,340,500_AL_.jpg"
 },
-{
-    "title": "Dangal",
-    "year": "2016",
-    "genres": [
-        "Action",
-        "Biography",
-        "Drama"
-    ],
-    "ratings": [
-        5,
-        6,
-        3,
-        9,
-        6,
-        9,
-        7,
-        6,
-        4,
-        2,
-        7,
-        1,
-        10,
-        7,
-        7,
-        6,
-        2,
-        4,
-        2,
-        5,
-        7,
-        8,
-        6,
-        7,
-        3,
-        3,
-        4,
-        6,
-        8,
-        1
-    ],
-    "poster": "MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SY500_CR0,0,356,500_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT161M",
-    "releaseDate": "2016-12-23",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Biopic of Mahavir Singh Phogat, who taught wrestling to his daughters Babita Kumari and Geeta Phogat. Geeta Phogat was India's first female wrestler to win at the 2010 Commonwealth Games, where she won the gold medal (55 kg) while her sister Babita Kumari won the silver (52 kg).                Written by\nDibyayan_Chakravorty",
-    "actors": [
-        "Aamir Khan",
-        "Sakshi Tanwar",
-        "Fatima Sana Shaikh"
-    ],
-    "imdbRating": 8.9,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SY500_CR0,0,356,500_AL_.jpg"
-},
+
 {
     "title": "Drishyam",
     "year": "2013",
@@ -10291,61 +10072,7 @@ const allMovies = [{
     "imdbRating": 8.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmU1NDhjYTQtYjQxYy00MjlmLWIxMjItMjllMmE2NDRlY2ZhXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_SX400_AL_.jpg"
 },
-{
-    "title": "Taare Zameen Par",
-    "year": "2007",
-    "genres": [
-        "Drama",
-        "Family",
-        "Music"
-    ],
-    "ratings": [
-        1,
-        9,
-        10,
-        4,
-        1,
-        6,
-        2,
-        9,
-        5,
-        10,
-        4,
-        5,
-        7,
-        6,
-        3,
-        8,
-        7,
-        4,
-        1,
-        2,
-        1,
-        5,
-        7,
-        10,
-        3,
-        10,
-        8,
-        2,
-        4,
-        3
-    ],
-    "poster": "MV5BNTVmYTk2NjAtYzY3MS00YjFjLTlkYzktYzg3YzMyZDQyOWRiXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY500_CR0,0,346,500_AL_.jpg",
-    "contentRating": "PG",
-    "duration": "PT165M",
-    "releaseDate": "2008-12-26",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Ishaan Awasthi is an eight-year-old whose world is filled with wonders that no one else seems to appreciate; colours, fish, dogs and kites are just not important in the world of adults, who are much more interested in things like homework, marks and neatness. And Ishaan just cannot seem to get anything right in class. When he gets into far more trouble than his parents can handle, he is packed off to a boarding school to 'be disciplined'. Things are no different at his new school, and Ishaan has to contend with the added trauma of separation from his family. One day a new art teacher bursts onto the scene, Ram Shankar Nikumbh, who infects the students with joy and optimism. He breaks all the rules of 'how things are done' by asking them to think, dream and imagine, and all the children respond with enthusiasm, all except Ishaan. Nikumbh soon realizes that Ishaan is very unhappy, and he sets out to discover why. With time, patience and care, he ultimately helps Ishaan find himself.                Written by\nAnonymous",
-    "actors": [
-        "Darsheel Safary",
-        "Aamir Khan",
-        "Tanay Chheda"
-    ],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTVmYTk2NjAtYzY3MS00YjFjLTlkYzktYzg3YzMyZDQyOWRiXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY500_CR0,0,346,500_AL_.jpg"
-},
+
 {
     "title": "Jaane Bhi Do Yaaro",
     "year": "1983",
@@ -10567,116 +10294,7 @@ const allMovies = [{
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWE2MjhjMmMtNzQyMS00MmI0LTlkOTUtZDVlZjFlNmZkNDgyL2ltYWdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SY462_CR0,0,331,462_AL_.jpg"
 },
 
-{
-    "title": "Drishyam",
-    "year": "2015",
-    "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-    ],
-    "ratings": [
-        2,
-        4,
-        3,
-        10,
-        10,
-        7,
-        3,
-        1,
-        7,
-        9,
-        1,
-        5,
-        8,
-        2,
-        2,
-        7,
-        7,
-        5,
-        2,
-        9,
-        9,
-        5,
-        3,
-        2,
-        4,
-        2,
-        3,
-        1,
-        4,
-        1
-    ],
-    "poster": "MV5BMTYyMjgyNDY3N15BMl5BanBnXkFtZTgwOTMzNTE5NTE@._V1_SY500_CR0,0,346,500_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT163M",
-    "releaseDate": "2015-07-31",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Vijay Salgaonkar runs a cable TV network in a remote and hilly village of Goa. He lives a happy life with his wife Nandini and two daughters. A 4th grade dropout & an orphan, Vijay has worked his way towards success with his sheer hard-work & street smartness in order to provide for his family who mean the world to him. A man of few means & needs; Vijay believes life is to be lived simplistically - his wife, while she loves him devoutly, wants Vijay's thrifty & miserly behavior to end and wants the world for her family. If there's one thing that Vijay cannot live without, it is his passion for watching films. Such is his 'filmy' obsession that he doesn't mind staying up all night at his office binging on TV movies! In a bizarre turn of events; a teenage boy goes missing; he is the son of a headstrong & no-nonsense cop; IG Meera Deshmukh and the Salgaonkar family is the prime suspect! Will a humble & middle class man, be able to protect his family from oppression of the powerful? How ...                Written by\nDhruvi Dokania",
-    "actors": [
-        "Ajay Devgn",
-        "Shriya Saran",
-        "Tabu"
-    ],
-    "imdbRating": 8.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMjgyNDY3N15BMl5BanBnXkFtZTgwOTMzNTE5NTE@._V1_SY500_CR0,0,346,500_AL_.jpg"
-},
-{
-    "title": "Sholay",
-    "year": "1975",
-    "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-    ],
-    "ratings": [
-        2,
-        4,
-        1,
-        9,
-        5,
-        8,
-        5,
-        7,
-        8,
-        4,
-        9,
-        7,
-        4,
-        1,
-        3,
-        3,
-        5,
-        7,
-        7,
-        1,
-        10,
-        9,
-        4,
-        1,
-        10,
-        3,
-        6,
-        7,
-        6,
-        6
-    ],
-    "poster": "MV5BOWQ0YTUzYzItYjI0MC00OTZmLWE1MWQtY2EzMzU2MTlmMmJjXkEyXkFqcGdeQXVyMDkwNTkwNg@@._V1_SY383_CR0,0,292,383_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT198M",
-    "releaseDate": "1975-08-15",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Sholay means embers in Hindi. In this particular movie, a Police Officer, who's family was killed by a bandit named Gabbar Singh, decides to fight fire with fire and recruits two convicts, Jai and Veeru to capture Gabbar. He approaches them in jail, puts the proposal in front of them, and they agree to bring in Gabbar Singh alive - for a hefty price. After their discharge from jail, they travel by train to the village where the Police Officer lives - now with only his widowed daughter-in-law. The three band together to fight one of the most elusive and dreaded bandits of all time. Will the two ex-cons be able to bring Gabbar alive to the Police Officer?                Written by\nCalista",
-    "actors": [
-        "Dharmendra",
-        "Sanjeev Kumar",
-        "Hema Malini"
-    ],
-    "imdbRating": 8.4,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWQ0YTUzYzItYjI0MC00OTZmLWE1MWQtY2EzMzU2MTlmMmJjXkEyXkFqcGdeQXVyMDkwNTkwNg@@._V1_SY383_CR0,0,292,383_AL_.jpg"
-},
+
 {
     "title": "Khosla Ka Ghosla!",
     "year": "2006",
@@ -10733,61 +10351,7 @@ const allMovies = [{
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTg2YWFkOGMtYWExMy00YmFiLTk2YjctNTAzZDk5MjdhMzdlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX262_CR0,0,262,377_AL_.jpg"
 },
 
-{
-    "title": "Munna Bhai M.B.B.S.",
-    "year": "2003",
-    "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-    ],
-    "ratings": [
-        2,
-        3,
-        6,
-        1,
-        7,
-        2,
-        1,
-        7,
-        4,
-        1,
-        7,
-        2,
-        7,
-        7,
-        1,
-        6,
-        8,
-        4,
-        6,
-        10,
-        10,
-        7,
-        6,
-        1,
-        9,
-        6,
-        7,
-        3,
-        4,
-        9
-    ],
-    "poster": "MV5BY2JlMGI1YWQtYjBhMi00NTJiLTgxMzUtMGU4NThlZTAyYmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY500_CR0,0,333,500_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT156M",
-    "releaseDate": "2003-12-19",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "In India gangsters are called Bhai (brothers). One such Bhai is Munna, who is feared by everyone in Mumbai, a big city in India. He cons his village-based parents into believing that he is a doctor. He gets a shock when he finds out that they are coming to verify for themselves. So he transforms a rooming shanty house into a makeshift hospital, populated by patients, people he beats up. His parents arrive, are pleased, and happy that their son is well settled. They would like him to get married to a doctor's daughter. The marriage is arranged, but before the engagement, the bride's father finds out the truth about Munna, and cancels the marriage. Munna's humiliated parents see the truth for themselves, and hurt, they return home, leaving Munna with a strong desire to hurt the doctor - and force him to let his daughter get married to him - even if it means getting admitted in the medical college - with forged documents!!!                Written by\nSumitra (corrected by Carrie)",
-    "actors": [
-        "Sunil Dutt",
-        "Sanjay Dutt",
-        "Arshad Warsi"
-    ],
-    "imdbRating": 8.3,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2JlMGI1YWQtYjBhMi00NTJiLTgxMzUtMGU4NThlZTAyYmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY500_CR0,0,333,500_AL_.jpg"
-},
+
 
 {
     "title": "Talvar",
@@ -11168,61 +10732,6 @@ const allMovies = [{
     ],
     "imdbRating": 8.3,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTU1ZjQwNDAtZDAwMC00OTcyLTg4MDUtOTUwYTU4N2M4YTgxXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_CR0,0,366,500_AL_.jpg"
-},
-{
-    "title": "Gangs of Wasseypur",
-    "year": "2012",
-    "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-    ],
-    "ratings": [
-        6,
-        10,
-        4,
-        2,
-        4,
-        1,
-        2,
-        8,
-        5,
-        7,
-        5,
-        6,
-        3,
-        9,
-        9,
-        6,
-        1,
-        5,
-        7,
-        1,
-        9,
-        9,
-        10,
-        4,
-        3,
-        7,
-        7,
-        8,
-        7,
-        4
-    ],
-    "poster": "MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_SY500_CR0,0,337,500_AL_.jpg",
-    "contentRating": "",
-    "duration": "PT320M",
-    "releaseDate": "2012-08-02",
-    "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Shahid Khan is exiled after impersonating the legendary Sultana Daku in order to rob British trains. Now outcast, Shahid becomes a worker at Ramadhir Singh's colliery, only to spur a revenge battle that passes on to generations. At the turn of the decade, Shahid's son, the philandering Sardar Khan vows to get his father's honor back, becoming the most feared man of Wasseypur.                Written by\nanonymous",
-    "actors": [
-        "Manoj Bajpayee",
-        "Richa Chadha",
-        "Nawazuddin Siddiqui"
-    ],
-    "imdbRating": 8.3,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_SY500_CR0,0,337,500_AL_.jpg"
 },
 {
     "title": "Chak De! India",

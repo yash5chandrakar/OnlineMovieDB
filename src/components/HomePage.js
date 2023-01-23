@@ -9,7 +9,6 @@ const HomePage = () => {
     const [genre, setGenre] = useState("")
     const [chosenItem, setChosenItem] = useState("")
     const [sort, setSort] = useState("LATEST")
-    const [genreIndex, setGenreindex] = useState(0)
     const [totalMovies, setTotalMovies] = useState(0)
     const [modal, setModal] = useState(false)
     const [query, setQuery] = useState("")
@@ -33,13 +32,8 @@ const HomePage = () => {
             })
         }
 
-        setTotalMovies(myData.length)
-
-        myData = myData.slice((pageNo - 1) * 20, (pageNo) * 20)
-
-
         if (sort === "LATEST") {
-            myData = myData.sort((a, b) => parseInt(b.year) - parseInt(a.year))
+            myData = myData.sort((a, b) => b.year - a.year)
         }
         else if (sort === "OLDEST") {
             myData = myData.sort((a, b) => a.year - b.year)
@@ -50,6 +44,11 @@ const HomePage = () => {
         else if (sort === "RATINGDOWN") {
             myData = myData.sort((a, b) => a.imdbRating - b.imdbRating)
         }
+
+        setTotalMovies(myData.length)
+
+
+
         if (query !== "") {
             // console.log("Hello")
             // eslint-disable-next-line array-callback-return
@@ -58,8 +57,10 @@ const HomePage = () => {
                     return item;
                 }
             })
-
         }
+
+        myData = myData.slice((parseInt(pageNo) - 1) * 20, (parseInt(pageNo) * 20))
+
         if (myData.length === 0) {
             setPageNo(1)
         }
@@ -69,14 +70,7 @@ const HomePage = () => {
 
     }, [genre, initalState, pageNo, query, sort])
 
-    useEffect(() => {
-        let elements = document.getElementsByTagName("li")
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].classList.remove("selectedGenre")
-        }
-        elements[genreIndex].classList.add("selectedGenre")
-        setPageNo(1)
-    }, [genreIndex])
+
 
 
     function incrementPage() {
@@ -92,6 +86,8 @@ const HomePage = () => {
             setPageNo(pageNo - 1)
         }
     }
+
+
     return (
         <div className='homepage'>
             {modal ? <div style={{ display: modal }} className='modal'>
@@ -104,25 +100,25 @@ const HomePage = () => {
                 <div className='leftHome'>
                     <h3>GENRES <hr /></h3>
                     <ul>
-                        <li onClick={() => { setGenre(""); setGenreindex(0) }}>All</li>
-                        <li onClick={() => { setGenre("Action"); setGenreindex(1) }}>Action</li>
-                        <li onClick={() => { setGenre("Adventure"); setGenreindex(2) }}>Adventure</li>
-                        <li onClick={() => { setGenre("Biography"); setGenreindex(3) }}>Biography</li>
-                        <li onClick={() => { setGenre("Comedy"); setGenreindex(4) }}>Comedy</li>
-                        <li onClick={() => { setGenre("Crime"); setGenreindex(5) }}>Crime</li>
-                        <li onClick={() => { setGenre("Drama"); setGenreindex(6) }}>Drama</li>
-                        <li onClick={() => { setGenre("History"); setGenreindex(7) }}>History</li>
-                        <li onClick={() => { setGenre("Romance"); setGenreindex(8) }}>Romance</li>
-                        <li onClick={() => { setGenre("Mystery"); setGenreindex(9) }}>Mystery</li>
-                        <li onClick={() => { setGenre("Horror"); setGenreindex(10) }}>Horror</li>
-                        <li onClick={() => { setGenre("Fantasy"); setGenreindex(11) }}>Fantasy</li>
-                        <li onClick={() => { setGenre("Thriller"); setGenreindex(12) }}>Thriller</li>
+                        <li className={(genre === "") ? "selectedGenre" : ""} onClick={() => { setGenre(""); }}>All</li>
+                        <li className={(genre === "Action") ? "selectedGenre" : ""} onClick={() => { setGenre("Action"); }}>Action</li>
+                        <li className={(genre === "Adventure") ? "selectedGenre" : ""} onClick={() => { setGenre("Adventure"); }}>Adventure</li>
+                        <li className={(genre === "Biography") ? "selectedGenre" : ""} onClick={() => { setGenre("Biography"); }}>Biography</li>
+                        <li className={(genre === "Comedy") ? "selectedGenre" : ""} onClick={() => { setGenre("Comedy"); }}>Comedy</li>
+                        <li className={(genre === "Crime") ? "selectedGenre" : ""} onClick={() => { setGenre("Crime"); }}>Crime</li>
+                        <li className={(genre === "Drama") ? "selectedGenre" : ""} onClick={() => { setGenre("Drama"); }}>Drama</li>
+                        <li className={(genre === "History") ? "selectedGenre" : ""} onClick={() => { setGenre("History"); }}>History</li>
+                        <li className={(genre === "Romance") ? "selectedGenre" : ""} onClick={() => { setGenre("Romance"); }}>Romance</li>
+                        <li className={(genre === "Mystery") ? "selectedGenre" : ""} onClick={() => { setGenre("Mystery"); }}>Mystery</li>
+                        <li className={(genre === "Horror") ? "selectedGenre" : ""} onClick={() => { setGenre("Horror"); }}>Horror</li>
+                        <li className={(genre === "Fantasy") ? "selectedGenre" : ""} onClick={() => { setGenre("Fantasy"); }}>Fantasy</li>
+                        <li className={(genre === "Thriller") ? "selectedGenre" : ""} onClick={() => { setGenre("Thriller"); }}>Thriller</li>
                     </ul>
                 </div>
                 <div className='rightHome'>
                     <div className='upperHome'>
                         <h3>{totalMovies} Movies</h3>
-                        <div><input className='queryBox' placeholder='Search For a movie..' value={query} onChange={(e) => setQuery(e.target.value)}></input> &nbsp; </div>
+                        <div><input className='queryBox' placeholder={`Search among ${totalMovies} movies...`} value={query} onChange={(e) => setQuery(e.target.value)}></input> &nbsp; </div>
                         <div><button onClick={() => decrementPage()}>👈🏻</button> {pageNo} <button onClick={() => incrementPage()}>👉🏻</button></div>
                         <div>SORT BY : <select onChange={(e) => setSort(e.target.value)} name='sort' id='sort'>
                             <option value="LATEST">LATEST</option>

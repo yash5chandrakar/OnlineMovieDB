@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(22, 22, 22);
+}
+
 nav {
   font-size: 2vw;
   display: flex;
@@ -65,7 +69,6 @@ nav a:hover {
 .leftHome {
   width: 20%;
   padding: 2%;
-
   /* background-color: rgb(106, 37, 170); */
 }
 
@@ -75,7 +78,8 @@ nav a:hover {
   padding-bottom: 10px;
   color: yellowgreen;
   text-shadow: 2px 2px 2px black;
-  letter-spacing: 8px;
+  letter-spacing: 0.5vw;
+  text-align: center;
 }
 
 .leftHome ul {
@@ -103,7 +107,7 @@ nav a:hover {
 
 .upperHome {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: orange;
   text-align: center;
@@ -128,7 +132,7 @@ nav a:hover {
 .displayContent {
   padding: 2%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
 }
@@ -137,11 +141,12 @@ nav a:hover {
   text-align: center;
   cursor: pointer;
   /* width: 250px; */
-  /* width: 14vw; */
+  width: 18vw;
   word-wrap: break-word;
   overflow: hidden;
   font-size: 1.5vw;
   color: yellowgreen;
+  text-overflow: ellipsis;
 }
 
 .displayItem:hover {
@@ -162,8 +167,8 @@ nav a:hover {
 .upperHome button {
   cursor: pointer;
   font-size: 1.5vw;
-  margin: 0px 10px;
-  padding: 5px;
+  margin: 0px 0.4vw;
+  padding: 0.5vw;
   background-color: greenyellow;
 }
 
